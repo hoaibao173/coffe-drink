@@ -193,6 +193,7 @@ class PostController extends Controller
         $post = Posts::find($id);
         Comments::where('id_baiviet', $post->id)->delete();
         $post->delete();
+        unlink("uploads/post/$post->hinhanh");
         return redirect()->back()->with('message', 'Đã xoá.');
     }
     public function createPost()
