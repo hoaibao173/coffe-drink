@@ -1906,8 +1906,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `email`, `email_verified_at`, `password`, `level`, `remember_token`, `created_at`, `updated_at`, `name_staff`, `roles_id`, `page_access`, `type_account`, `phone_number`, `status`) VALUES
 (5, 'admin@gmail.com', NULL, '$2y$10$EQEqaY0mtni5ZCLKsc2E.ee2P5h7w1wDZgd2cRrCOgMNtff/eOv0K', 1, NULL, '2022-07-01 10:22:48', '2022-07-09 02:25:55', 'Nguyễn Văn Chung', '1,', '1,', 1, '0343754517', 1),
-(9, '0306181377@caothang.edu.vn', NULL, '$2y$10$DPiSogeJb2UWMW4YwTCoZOcDa6HIIP1PrnMOqdE9Q/ZfI1x.MpbG2', 1, NULL, '2022-07-09 05:32:24', '2022-07-10 21:55:18', 'Phan Minh Trí', '1,', '1,', 1, '1234567890', 1),
-(13, 'phanminhtri11800@gmail.com', NULL, '$2y$10$6aGvk0zjHb.foVikWCDCzekdYnIMYEi.iwyinQ09Vv536Drzvsrb2', 1, NULL, '2022-07-20 19:51:01', '2022-07-20 19:51:01', 'Nguyen Van B', 'demo', 'demo', 2, '0328369701', 1);
+(9, 'example@example.com', NULL, '$2y$10$SuyG.RoLhXJKS1QyfrrqQO0bvBMt3Zz8r9xM8ov4YzzhHTD6.WwKm', 1, NULL, '2022-07-09 05:32:24', '2022-07-10 21:55:18', 'Phan Minh Trí', '1,', '1,', 1, '1234567890', 1),
+(13, 'phanminhtri11800@gmail.com', NULL, '$2y$10$0YBdY.sD7D4LZ6Ie9sxkO.NfItqpiP.f4kki/UGUcL2A24jgjtz9a', 1, NULL, '2022-07-20 19:51:01', '2022-07-20 19:51:01', 'Nguyen Van B', 'demo', 'demo', 2, '0328369701', 1);
 
 -- --------------------------------------------------------
 
